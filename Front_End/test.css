@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.clear {
+  clear: both;
+}
+.white {
+  color: #fff !important;
+}
+/* Header */
+#header {
+  position: fixed;
+  height: 46px;
+  background-color: black;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+#nav li {
+  display: block;
+  position: relative;
+}
+#nav > li {
+  display: inline-block;
+}
+#nav > li > a {
+  text-transform: uppercase;
+  color: #fff;
+}
+#nav li a {
+  display: block;
+  padding: 0 24px;
+  text-decoration: none;
+  line-height: 46px;
+}
+#nav .subnav li:hover a,
+#nav > li:hover > a {
+  background-color: #ccc;
+  color: #000;
+}
+#nav li:hover .subnav {
+  display: block;
+}
+#nav .subnav {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+}
+#nav .subnav a {
+  padding-left: 16px;
+  color: #000;
+}
+#nav,
+.subnav {
+  list-style: none;
+}
+.down {
+  font-size: 14px;
+}
+.searchbottom {
+  float: right;
+  padding: 0 21px;
+}
+.searchbottom:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.search {
+  line-height: 46px;
+  font-size: 20px;
+  color: #fff;
+}
+/* Slider */
+#slider {
+  background-image: url("https://www.w3schools.com/w3images/la.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding-top: 50%;
+  margin-top: 46px;
+  position: relative;
+}
+#slider .slider-box {
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  padding: 32px 0;
+}
+#slider .slider-content {
+  font-weight: 500;
+}
+#slider .slider-subcontent {
+  margin-top: 25px;
+}
+/* Content */
+
+#content .content-selection {
+  margin: auto;
+  max-width: 800px;
+  padding: 64px 0;
+}
+#content .content-main {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 4px;
+}
+#content .content-extra {
+  text-align: center;
+  font-style: italic;
+  opacity: 0.6;
+  margin-top: 25px;
+  font-size: 15px;
+}
+#content .content-grap {
+  margin: 15px 0;
+  line-height: 1.4;
+  text-align: justify;
+  font-size: 15px;
+}
+#content .band-image {
+  margin-top: 47px;
+}
+#content .member-item {
+  float: left;
+  text-align: center;
+  width: calc(100% / 3);
+}
+#content .member-name {
+  font-size: 15px;
+  margin: 15px 0;
+}
+#content .member-image {
+  width: 154px;
+  border-radius: 4px;
+}
+#content .tour-selection {
+  background-color: #000;
+}
+#content .tickets-list {
+  background-color: #fff;
+  margin-top: 40px;
+  list-style: none;
+}
+#content .tickets-list li {
+  color: #757575;
+  padding: 11px 16px;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+}
+#content .tickets-list .sold-out {
+  background-color: red;
+  padding: 3px 4px;
+  margin-left: 16px;
+}
+#content .tickets-list .quantity {
+  float: right;
+  background-color: #000;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+  margin-top: -3px;
+}
+/* Places */
+#content .place-list {
+  margin: 32px -8px 48px;
+}
+#content .place-item {
+  float: left;
+  width: calc(100% / 3);
+  padding: 0 8px;
+}
+#content .place-image {
+  display: block;
+  width: 100%;
+}
+#content .place-image:hover {
+  opacity: 0.6;
+}
+#content .place-body {
+  background-color: #fff;
+  padding: 16px;
+  font-size: 15px;
+}
+#content .place-heading {
+  font-size: 15px;
+  font-weight: 600;
+}
+#content .place-time {
+  margin-top: 15px;
+  color: #757575;
+}
+#content .place-desc {
+  margin-top: 15px;
+  line-height: 1.4;
+}
+#content .place-buy {
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+  padding: 11px 16px;
+  display: inline-block;
+  margin-top: 15px;
+}
+#content .place-buy:hover {
+  color: #000;
+  background-color: #ccc;
+}
