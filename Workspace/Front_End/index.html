@@ -94,7 +94,10 @@
             <p class="content-extra white">Remember to book your tickets!</p>
             <!-- Ticket -->
             <ul class="sticker-list">
-              <li>September <span class="sold white">Sold out</span></li>
+              <li>
+                September
+                <span class="sold white">Sold out</span>
+              </li>
               <li>October <span class="sold white">Sold out</span></li>
               <li>November <span class="no-sold white">3</span></li>
             </ul>
@@ -198,5 +201,14 @@
         </div>
       </div>
     </div>
+    <script>
+      const buyBtns = document.querySelectorAll("js-buy-tickets");
+      function showbuyTickets() {
+        alert("SHOW");
+      }
+      for (const buyBtn of buyBtns) {
+        buyBtn.addEventListener("click", showbuyTickets);
+      }
+    </script>
   </body>
 </html>
