@@ -10,8 +10,9 @@ html {
   clear: both;
 }
 .white {
-  color: #fff;
+  color: #fff !important;
 }
+
 /*  Phần Heading */
 #header {
   height: 46px;
